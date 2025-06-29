@@ -1,0 +1,9 @@
+temperature=float(input("enter the current temperature in celsius :"))
+if temperature >= 30 :
+       print("its ahot day.stay hydrated!")
+elif temperature>=20 and temperature<=29:
+       print("its awarm day.enjoy the weather!")
+elif temperature>=10 and temperature<=19:
+       print("its acool day. wear ajacket!") 
+else:
+     print("its acold day.stay warm!")

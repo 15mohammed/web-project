@@ -1,0 +1,5 @@
+numbers=list(rang(1,21))
+print("numbers divisible by 3:")
+for num in numbers:
+    if num %3 == 0:
+        print (num)
